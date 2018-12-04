@@ -1,0 +1,40 @@
+* {
+    border:none;
+    text-shadow:none;
+    width:100%;
+    display:block;
+    font-family : "Times New Roman", Times, serif;
+    font-size : 12pt; 
+}
+
+body, h1,h2, h3, { 
+    color : black; 
+    background : white; 
+    font-family : "Times New Roman", Times, serif;
+    font-size : 12pt; 
+}
+a { 
+    text-decoration : underline; 
+    color : black; 
+}
+nav, footer, header{ 
+    display : none; 
+}
+#altcolor{
+    display:none;
+}
+img{
+    display:none;
+}
+picture{
+    display:none;
+}
+nav ul li{
+    display:none;
+}
+#noprint, #p1, #p2, #p3 { 
+    color : black; 
+    background : white; 
+    font-family : "Times New Roman", Times, serif;
+    font-size : 12pt;
+} 

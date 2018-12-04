@@ -1,0 +1,193 @@
+@font-face{
+    font-family: titleFont;
+    src: url(../fonts/australis.ttf);
+}
+@font-face{
+    font-family: paragraphFont;
+    src: url(../fonts/jackinput.ttf);
+}
+@font-face{
+    font-family: headingFont;
+    src: url(../fonts/rosemaryroman.ttf);
+}
+
+* {box-sizing: border-box;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+#top{
+    font-family:titleFont;
+    text-align:top left;
+    position:absolute;
+    color:rgb(23, 23, 26);
+    font-size: 3vw;
+    padding-top: 0px;
+    padding-left: 0px;
+    
+}
+.header{
+    background-image: url(../media/wideheader.jpg);
+    background-position: center center;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:rgba(0, 62.7, 62.7);
+    overflow:auto;
+    position:relative;
+    height:300px;
+}
+body{
+    background-color:rgba(0, 62.7, 62.7);
+    font-family: headingFont;
+    font-size: 20px
+}
+
+
+
+H1{
+    font-family:titleFont;
+    font-size: 6vw;
+    text-align: right;
+    color:rgb(15, 25, 27);
+    float:right;
+    width: 33.33%;
+    text-shadow: 1px;
+}
+H3.col-12{
+    font-family:titleFont;
+    text-align:center;
+    color:rgb(119, 130, 159);
+    font-size: 4vw;
+    text-shadow:1px;
+}
+nav{
+    font-family:headinghFont;
+    font-size:13px;
+}
+nav a{
+    text-decoration: none;
+}
+div.col-12{
+    overflow:auto;
+    position:relative;
+    
+}
+picture{
+    background-position: center center;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:auto;
+    position:relative;
+    height:300px;
+}
+nav ul{
+    list-style:none;
+    display:inline-table;
+    box-sizing:border-box;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family:headingFont;
+    text-shadow: 1px;
+    
+}
+nav ul li{
+    
+    border:2px solid black;
+    border-right:2px solid black;
+    width: auto;
+    cursor: pointer;  
+    background-color:rgb(119, 130, 159);
+
+}
+
+
+nav ul li:hover{
+    background-color:darkcyan;
+    animation-direction: alternate;
+    -webkit-animation-name: backroundchange;
+    -webkit-animation-duration: 3s;
+    animation-name:backroundchange;
+    animation-duration: 3s;
+
+}
+@keyframes backroundchange{
+    from {background-color:darkcyan;}
+    to {background-color: purple;}
+}
+a:link{
+    color:black;
+}
+a:active{
+    color:red;
+}
+a:visited{
+    color:whitesmoke;
+}
+p.col-4 {
+    font-family:headingFont;
+    text-align: center;
+    
+}
+#p1{
+    background-image:url(../media/relaxation.jpg);
+    background-size:contain;
+    background-position: center center; 
+    height:150px;
+    min-width: 33%;
+    background-repeat:no-repeat;
+    color:white;
+}
+#p2{
+    background-image:url(../media/nightLife.jpg);
+    background-size:contain;
+    background-position: center center; 
+    height:150px;
+    min-width: 33%;
+    background-repeat:no-repeat;
+    color:white;
+}
+#p3{
+    background-image:url(../media/beautifulMonitains.jpg);
+    background-size:contain;
+    background-position: center center; 
+    height:150px;
+    min-width: 33%;
+    background-repeat:no-repeat;
+    color:white;
+}
+footer ul li{
+list-style:none;
+display:inline-table;
+box-sizing:border-box;
+width: 100%;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-size: 18px;
+font-family:headingFont;
+text-shadow: 0px;
+}
+
